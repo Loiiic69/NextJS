@@ -2,7 +2,7 @@
 import Navbar from "../ui/navbar/navbar";
 import Gauche from "@/app/ui/gauche/overall";
 import Profit from "@/app/ui/mid/profit";
-
+import Profil from "@/profilhome/profil";
 const HomePage: React.FC = () => {
   return (
       <div>
@@ -15,8 +15,8 @@ const HomePage: React.FC = () => {
                 <Profit/>
 
           </div>
-          <div>
-            <h1>Profile</h1>
+          <div className="mr-12">
+              <Profil/>
           </div>
         </div>
       </div>
