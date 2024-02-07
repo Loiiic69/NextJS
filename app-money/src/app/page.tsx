@@ -15,6 +15,9 @@ const HomePage: React.FC = () => {
             <span className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-3 px-6 rounded-lg cursor-pointer">Register</span>
           </Link>
         </div>
+          <Link href="/home">
+              <span className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-3 px-6 rounded-lg cursor-pointer">Home</span>
+          </Link>
       </div>
     </div>
   );
