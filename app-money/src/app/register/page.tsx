@@ -1,10 +1,11 @@
 // pages/register.tsx
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Register() {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden">
-      <img src="logo.png" alt="Logo" className="w-14 h-14 mb-8 rounded-lg " />
+      <Image  src="logo.png" alt="Logo" className="w-14 h-14 mb-8 rounded-lg " />
       <div className="w-full p-6 bg-white rounded-md shadow-md lg:max-w-xl">
         <form className="mt-6">
           <div className="mb-4">

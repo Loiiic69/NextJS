@@ -2,7 +2,7 @@
 import Navbar from "../ui/navbar/navbar";
 import Gauche from "@/app/ui/gauche/overall";
 import Profit from "@/app/ui/mid/profit";
-import Profil from "@/profilhome/profil";
+import Profil from "@/app/ui/profilhome/profil";
 const HomePage: React.FC = () => {
   return (
       <div>
@@ -11,7 +11,7 @@ const HomePage: React.FC = () => {
             <div>
              <Gauche/>
             </div>
-            <div>
+            <div className="mr-32 p-4">
                 <Profit/>
 
           </div>

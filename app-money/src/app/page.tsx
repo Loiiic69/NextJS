@@ -1,10 +1,10 @@
-// pages/index.tsx
 import Link from 'next/link';
+import Image from "next/image";
 
 const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center ">
-      <img src="logo.png" alt="Logo" className="w-14 h-14 mb-8 rounded-lg " />
+      <Image  src="logo.png" alt="Logo" className="w-14 h-14 mb-8 rounded-lg " />
       <div className="text-center bg-gray-100 p-12 rounded-lg">
         <h1 className="text-4xl font-bold mb-6 text-black mb-12">UrbAide - Banking</h1>
         <div className="mb-6">
