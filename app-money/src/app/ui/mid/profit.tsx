@@ -24,22 +24,22 @@ const Profit = () => {
                 </div>
                 <div className="flex gap-10 mt-10">
                     <div className=" bg-gray-600 rounded-3xl h-32 w-32 mt-5">
-                        <Image  src="/icon9.png" alt="Your Icon" className="ml-2 h-14 w-14" />
+                        <Image height={56} width={56} src="/icon9.png" alt="Your Icon" className="ml-2 h-14 w-14" />
                         <p className="text-gray-300 ml-2 text-sm">Bitcoin</p>
                         <p className="text-white text-1xl ml-2 font-bold">$2,467.30</p>
                     </div>
                     <div className=" bg-gray-600 rounded-3xl h-32 w-32 mt-5">
-                        <Image  src="/icon10.png" alt="Your Icon" className="ml-2 h-14 w-14" />
+                        <Image height={56} width={56} src="/icon10.png" alt="Your Icon" className="ml-2 h-14 w-14" />
                         <p className="text-gray-300 ml-2 text-sm">Etherium</p>
                         <p className="text-white text-1xl ml-2 font-bold">$1,1990.01</p>
                     </div>
                     <div className=" bg-gray-600 rounded-3xl h-32 w-32 mt-5">
-                        <Image  src="/icon11.png" alt="Your Icon" className="ml-2 h-14 w-14" />
+                        <Image height={56} width={56} src="/icon11.png" alt="Your Icon" className="ml-2 h-14 w-14" />
                         <p className="text-gray-300 ml-2 text-sm">Dash</p>
                         <p className="text-white text-1xl ml-2 font-bold">$1,445.10</p>
                     </div>
                     <div className=" bg-gray-600 rounded-3xl h-32 w-32 mt-5">
-                        <Image  src="/icon12.png" alt="Your Icon" className="ml-2 h-14 w-14" />
+                        <Image height={56} width={56} src="/icon12.png" alt="Your Icon" className="ml-2 h-14 w-14" />
                         <p className="text-gray-300 ml-2 text-sm">Edo</p>
                         <p className="text-white text-1xl ml-2 font-bold">$988.O7</p>
                     </div>

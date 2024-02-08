@@ -3,13 +3,13 @@ const Navbar: React.FC = () => {
     return (
       <nav className="flex items-center justify-between bg-white p-4">
         <div className="flex items-center space-x-20">
-          <Image  src="/logo.png" alt="" className="h-15 w-15" />
-          <Image  src="/icon1.png" alt="Icon 1" className="h-15 w-15" />
-          <Image  src="/icon2.png" alt="Icon 2" className="h-15 w-15" />
-          <Image  src="/icon3.png" alt="Icon 3" className="h-15 w-15" />
-          <Image  src="/icon4.png" alt="Icon 4" className="h-15 w-15" />
+          <Image  height={56} width={56} src="/logo.png" alt="" className="h-15 w-15" />
+          <Image  height={56} width={56} src="/icon1.png" alt="Icon 1" className="h-15 w-15" />
+          <Image  height={56} width={56} src="/icon2.png" alt="Icon 2" className="h-15 w-15" />
+          <Image  height={56} width={56} src="/icon3.png" alt="Icon 3" className="h-15 w-15" />
+          <Image  height={56} width={56} src="/icon4.png" alt="Icon 4" className="h-15 w-15" />
         </div>
-        <Image  src="/icon5.png" alt="Icon 5" className="h-15" />
+        <Image  height={56} width={56} src="/icon5.png" alt="Icon 5" className="h-15" />
       </nav>
     );
   };
